@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <div class="logo">
+                <h1>CryptoTracker</h1>
+            </div>
+        </div>
+
+        <div class="right">
+          <!-- <ul class="list"> -->
+            <li><a href="/">
+                    <div class="text">on/off</div>
+                </a></li>
+            <li><a href="index.html">
+                    <div class="text">Home</div>
+                </a></li>
+            <li><a href="index.html">
+                    <div class="text">Compare</div>
+                </a></li>
+            <li><a href="index.html">
+                    <div class="text">Watchlist</div>
+                </a></li>
+            <li><a href="index.html">
+                    <div class="signin">Dashboard</div>
+                </a></li>
+            <!-- </ul> -->
+        </div>
+
+    </header>
+    <main>
+        <!-- ====================SECTION1============== -->
+        <section>
+            <div class="head">
+                <ul>
+                    <li class="op1" onclick="gdisplay()">Grid</li>
+                    <li class="op2" onclick="ldisplay()">List</li>
+                </ul>
+
+            </div>
+        </section>
+        <!-- ====================SECTION2============== -->
+        <section>
+            <table class="Table">
+
+                <tbody id="tbod" class="menu">
+                    
+                        <!-- <div class="horizontal">
+                            <ul>
+                                <div class="title">
+                                    <img src="${values.image}" alt="logo">
+                                    <div class="horn">$
+                                        <li class="stext">$</li>
+                                    </div>
+                                    
+                                </div>
+                                <li class="horn1">$%</li>
+                                <li class="horn2">$</li>
+                                <br>
+                                <li class="stext">Total Volume:$</li>
+                                <li class="stext">Market Cap:$</li>
+                        </ul>
+                    </div>  -->
+                    <div id="err" >failed to load</div>
+                   
+                </tbody>
+        </section>
+    </main>
+
+
+
+
+    <script src="javas.js"></script>
+</body>
+
+</html>

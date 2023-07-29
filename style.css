@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+.whole-body{
+    align-content: center;
+    margin-left: 400px;
+    margin-left: 4000px;
+}
+
+
+li{
+    text-decoration: none;
+    gap: 7px;
+    padding: 10px;
+    list-style: none; 
+    text-decoration: none; 
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px rgb(243, 243, 243);
+}
+.left{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+   color: gray;
+   display: flex;
+   margin-top: 5px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.right li a{
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+.right li :hover,
+.right li a .active{
+    background-color: rgb(84, 84, 249);
+    color: white;
+    border-radius: 30px;
+    padding: 0 3px 0 5px;
+    
+} 
+.text{
+    margin-top: 3px;
+}
+.imgs1{
+    width: 200vh;
+}
+.promo{
+position: relative;
+text-align: center;
+}
+.promo-text{
+    color: white;
+    font-size: 32px;
+position: absolute;
+top: 20%;
+left: 5%;
+}
+
+.head ul{
+    /* width: 300px; */
+    display: flex;
+    justify-content: center;
+   
+}
+.head ul li{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin: 0 250px;
+    font-weight: 400px;
+    align-items: center;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+
+.head ul li:hover,
+.head ul li a.active{
+    border-bottom: 1px solid rgb(84, 84, 249);
+    
+}
+
+
+/* .op1:hover,
+.op1.active{
+    background-color: pink;
+}
+.op2{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.op2:hover,
+.op2.active{
+    background-color: pink;
+} */
+/* ===================table================== */
+.Table{
+    
+    margin-left: 15px;
+    width: 200vh;
+    border-bottom:1px solid gray ;
+    /* background-color:pink; */
+}
+.tr{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    text-align: left;
+    /* border:1px solid gray ; */
+    padding: 10px;
+}
+.td{
+    /* display: flex; */
+    
+    border:1px solid gray ;
+    /* padding: 10px; */
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+border: 1px solid black;
+border-radius: 50%;
+margin: 20px;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-items: space-evenly;
+    align-content:space-evenly ;
+}
+/* ==================GRID DISPLAY=============== */
+.menu{
+    display: grid;
+    margin-left: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.9rem;
+    margin-bottom: 50px; 
+
+}
+.horizontal{
+    width: 310px;
+    height: 300px;
+    /* margin-left: 20px; */
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+
+    
+}
+.title{
+    display: flex;
+     align-items: center;
+    align-content: center;
+    color: white;
+    width: 310px;
+    height: 70px;
+}
+.horn1{
+color: rgb(3, 194, 3);
+border: 1px solid rgb(3, 194, 3);
+border-radius: 45%;
+margin: 10px;
+}
+.stext{
+    display: flex;
+    font-weight: 10px;
+    font-size: 14px;
+    color: grey;
+    padding: 10px;
+}
+.horn2{
+color: rgb(3, 194, 3);
+}
+#err{
+    
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    width: 200vh;
+    font-size: 70px;
+    color: red;
+    display: none;
+}
+
+
+
+
+
+
+
+
